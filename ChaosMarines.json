@@ -1,0 +1,684 @@
+{
+  "ChaosMarines":[
+ {
+   "NAME": "HQ",
+   "Points": null
+ },
+ {
+   "NAME": "Chaos Lord",
+   "Points": 80
+ },
+ {
+   "NAME": "Chaos Lord in Terminator",
+   "Points": 95
+ },
+ {
+   "NAME": "Chaos Lord with Jump Pack",
+   "Points": 105
+ },
+ {
+   "NAME": "Daemon Prince",
+   "Points": 150
+ },
+ {
+   "NAME": "Daemon Prince with Wings",
+   "Points": 185
+ },
+ {
+   "NAME": "Dark Apostle",
+   "Points": 80
+ },
+ {
+   "NAME": "Exalted Champion",
+   "Points": 75
+ },
+ {
+   "NAME": "Lord Discordant",
+   "Points": 180
+ },
+ {
+   "NAME": "Master of Executions",
+   "Points": 65
+ },
+ {
+   "NAME": "Master of Possession",
+   "Points": 95
+ },
+ {
+   "NAME": "Sorcerer",
+   "Points": 90
+ },
+ {
+   "NAME": "Sorcerer in Terminator",
+   "Points": 105
+ },
+ {
+   "NAME": "Sorcerer with Jump Pack",
+   "Points": 115
+ },
+ {
+   "NAME": "Warpsmith",
+   "Points": 50
+ },
+ {
+   "NAME": "TROOPS",
+   "Points": null
+ },
+ {
+   "NAME": "Cultists",
+   "Points": 6
+ },
+ {
+   "NAME": "Chaos space marines",
+   "Points": 14
+ },
+ {
+   "NAME": "ELITES",
+   "Points": null
+ },
+ {
+   "NAME": "Chosen",
+   "Points": 15
+ },
+ {
+   "NAME": "Dark disciples",
+   "Points": 5
+ },
+ {
+   "NAME": "Fallen",
+   "Points": 14
+ },
+ {
+   "NAME": "Greater Possessed",
+   "Points": 65
+ },
+ {
+   "NAME": "Helbrute",
+   "Points": 70
+ },
+ {
+   "NAME": "Khorne Berzerkers",
+   "Points": 17
+ },
+ {
+   "NAME": "Mutilators",
+   "Points": 35
+ },
+ {
+   "NAME": "Noise Marines",
+   "Points": 16
+ },
+ {
+   "NAME": "Plague Marines",
+   "Points": 18
+ },
+ {
+   "NAME": "Possessed",
+   "Points": 20
+ },
+ {
+   "NAME": "Rubric Marines",
+   "Points": 18
+ },
+ {
+   "NAME": "Terminators",
+   "Points": 23
+ },
+ {
+   "NAME": "FAST ATTACK",
+   "Points": null
+ },
+ {
+   "NAME": "Bikers",
+   "Points": 25
+ },
+ {
+   "NAME": "Chaos spawn",
+   "Points": 23
+ },
+ {
+   "NAME": "Raptors",
+   "Points": 18
+ },
+ {
+   "NAME": "Warp Talons",
+   "Points": 17
+ },
+ {
+   "NAME": "FORTIFICATIONS",
+   "Points": null
+ },
+ {
+   "NAME": "Noctilith Crown",
+   "Points": 85
+ },
+ {
+   "NAME": "HEAVY SUPPORT",
+   "Points": null
+ },
+ {
+   "NAME": "Chaos Land Raider",
+   "Points": 175
+ },
+ {
+   "NAME": "Chaos Predator",
+   "Points": 90
+ },
+ {
+   "NAME": "Chaos Vindicator",
+   "Points": 130
+ },
+ {
+   "NAME": "Defilier",
+   "Points": 120
+ },
+ {
+   "NAME": "Forgefiend",
+   "Points": 85
+ },
+ {
+   "NAME": "Havocs",
+   "Points": 17
+ },
+ {
+   "NAME": "Maulerfiend",
+   "Points": 130
+ },
+ {
+   "NAME": "Obliterators",
+   "Points": 105
+ },
+ {
+   "NAME": "Venomcrawler",
+   "Points": 130
+ },
+ {
+   "NAME": "DEDICATED TRANSPORT",
+   "Points": null
+ },
+ {
+   "NAME": "Chaos Rhino",
+   "Points": 75
+ },
+ {
+   "NAME": "LORD OF WAR",
+   "Points": null
+ },
+ {
+   "NAME": "Khorne Lord of Skulls",
+   "Points": 350
+ },
+ {
+   "NAME": "",
+   "Points": null
+ },
+ {
+   "NAME": "Accursed crozius",
+   "Points": 0
+ },
+ {
+   "NAME": "Axe of dismemberment",
+   "Points": 0
+ },
+ {
+   "NAME": "Bladed limbs and tail",
+   "Points": 0
+ },
+ {
+   "NAME": "Brutal assault weapon",
+   "Points": 0
+ },
+ {
+   "NAME": "Bubotic axe",
+   "Points": 5
+ },
+ {
+   "NAME": "Chainaxe",
+   "Points": 1
+ },
+ {
+   "NAME": "Chainfist",
+   "Points": 10
+ },
+ {
+   "NAME": "Chainsword",
+   "Points": 0
+ },
+ {
+   "NAME": "Crushing fists",
+   "Points": 0
+ },
+ {
+   "NAME": "Daemon jaws",
+   "Points": 0
+ },
+ {
+   "NAME": "Daemonic axe",
+   "Points": 10
+ },
+ {
+   "NAME": "Daemonic mutations",
+   "Points": 0
+ },
+ {
+   "NAME": "Defiler claws",
+   "Points": 0
+ },
+ {
+   "NAME": "Defiler scourge",
+   "Points": 10
+ },
+ {
+   "NAME": "Eviscerating claws",
+   "Points": 0
+ },
+ {
+   "NAME": "Flail of corruption",
+   "Points": 15
+ },
+ {
+   "NAME": "Fleshmetal weapons",
+   "Points": 0
+ },
+ {
+   "NAME": "Force axe",
+   "Points": 0
+ },
+ {
+   "NAME": "Force stave",
+   "Points": 0
+ },
+ {
+   "NAME": "Force sword",
+   "Points": 0
+ },
+ {
+   "NAME": "Great cleaver of Khorne",
+   "Points": 0
+ },
+ {
+   "NAME": "Great plague cleaver",
+   "Points": 15
+ },
+ {
+   "NAME": "Helbrute fist single",
+   "Points": 20
+ },
+ {
+   "NAME": "Helbrute fist pair",
+   "Points": 30
+ },
+ {
+   "NAME": "Helbrute hammer",
+   "Points": 30
+ },
+ {
+   "NAME": "Heldrake claws",
+   "Points": 0
+ },
+ {
+   "NAME": "Hellforged sword",
+   "Points": 10
+ },
+ {
+   "NAME": "Hideous mutations",
+   "Points": 0
+ },
+ {
+   "NAME": "Horrifying mutations",
+   "Points": 0
+ },
+ {
+   "NAME": "Impaler chainglaive",
+   "Points": 0
+ },
+ {
+   "NAME": "Lasher tendrils",
+   "Points": 10
+ },
+ {
+   "NAME": "Lightning claws single",
+   "Points": 5
+ },
+ {
+   "NAME": "Lightning claws pair",
+   "Points": 10
+ },
+ {
+   "NAME": "Mace of contagion",
+   "Points": 5
+ },
+ {
+   "NAME": "Malefic talons one set",
+   "Points": 0
+ },
+ {
+   "NAME": "Malefic talons two sets",
+   "Points": 15
+ },
+ {
+   "NAME": "Maulerfiend fists",
+   "Points": 0
+ },
+ {
+   "NAME": "Mechatendrils",
+   "Points": 0
+ },
+ {
+   "NAME": "Plague knife",
+   "Points": 0
+ },
+ {
+   "NAME": "Plaguesword",
+   "Points": 0
+ },
+ {
+   "NAME": "Power axe",
+   "Points": 5
+ },
+ {
+   "NAME": "Power fist",
+   "Points": 10
+ },
+ {
+   "NAME": "Power maul",
+   "Points": 5
+ },
+ {
+   "NAME": "Power scourge",
+   "Points": 25
+ },
+ {
+   "NAME": "Power sword",
+   "Points": 5
+ },
+ {
+   "NAME": "Soulflayer tendrils",
+   "Points": 0
+ },
+ {
+   "NAME": "Techno-virus injector",
+   "Points": 0
+ },
+ {
+   "NAME": "Thunder hammer (character)",
+   "Points": 40
+ },
+ {
+   "NAME": "Thunder hammer (other)",
+   "Points": 15
+ },
+ {
+   "NAME": "",
+   "Points": null
+ },
+ {
+   "NAME": "Autocannon",
+   "Points": 10
+ },
+ {
+   "NAME": "autogun",
+   "Points": 0
+ },
+ {
+   "NAME": "autopistol",
+   "Points": 0
+ },
+ {
+   "NAME": "baleflamer",
+   "Points": 20
+ },
+ {
+   "NAME": "battle cannon",
+   "Points": 0
+ },
+ {
+   "NAME": "blastmaster",
+   "Points": 10
+ },
+ {
+   "NAME": "blight launcher",
+   "Points": 10
+ },
+ {
+   "NAME": "bolt pistol",
+   "Points": 0
+ },
+ {
+   "NAME": "boltgun",
+   "Points": 0
+ },
+ {
+   "NAME": "combi-bolter",
+   "Points": 3
+ },
+ {
+   "NAME": "combi-flamer",
+   "Points": 10
+ },
+ {
+   "NAME": "combi-melta",
+   "Points": 10
+ },
+ {
+   "NAME": "combi-plasma",
+   "Points": 10
+ },
+ {
+   "NAME": "Daemongore cannon",
+   "Points": 40
+ },
+ {
+   "NAME": "Demolisher cannon",
+   "Points": 0
+ },
+ {
+   "NAME": "Doom siren",
+   "Points": 10
+ },
+ {
+   "NAME": "Ectoplasma cannon",
+   "Points": 20
+ },
+ {
+   "NAME": "Excruciator cannon",
+   "Points": 0
+ },
+ {
+   "NAME": "Flamer",
+   "Points": 5
+ },
+ {
+   "NAME": "Fleshmetal guns",
+   "Points": 0
+ },
+ {
+   "NAME": "Gorestorm cannon",
+   "Points": 30
+ },
+ {
+   "NAME": "Hades autocannon",
+   "Points": 25
+ },
+ {
+   "NAME": "Hades gatling cannon",
+   "Points": 90
+ },
+ {
+   "NAME": "Havoc launcher",
+   "Points": 5
+ },
+ {
+   "NAME": "Heavy bolter",
+   "Points": 10
+ },
+ {
+   "NAME": "Heavy flamer",
+   "Points": 10
+ },
+ {
+   "NAME": "Heavy stubber",
+   "Points": 5
+ },
+ {
+   "NAME": "Helbrute plasma cannon",
+   "Points": 20
+ },
+ {
+   "NAME": "Icarus lascannon",
+   "Points": null
+ },
+ {
+   "NAME": "Ichor cannon",
+   "Points": 25
+ },
+ {
+   "NAME": "Inferno bolt pistol",
+   "Points": 0
+ },
+ {
+   "NAME": "Inferno boltgun",
+   "Points": 0
+ },
+ {
+   "NAME": "Lascannon",
+   "Points": 15
+ },
+ {
+   "NAME": "Lashing warp energies",
+   "Points": 0
+ },
+ {
+   "NAME": "Magma cutter",
+   "Points": 5
+ },
+ {
+   "NAME": "Meltagun",
+   "Points": 10
+ },
+ {
+   "NAME": "Missile launcher",
+   "Points": 15
+ },
+ {
+   "NAME": "multi-melta",
+   "Points": 20
+ },
+ {
+   "NAME": "Plague belcher",
+   "Points": 5
+ },
+ {
+   "NAME": "Plague spewer",
+   "Points": 10
+ },
+ {
+   "NAME": "Plasma gun",
+   "Points": 10
+ },
+ {
+   "NAME": "Plasma pistol",
+   "Points": 5
+ },
+ {
+   "NAME": "Predator autocannon",
+   "Points": 40
+ },
+ {
+   "NAME": "Quad-gun",
+   "Points": null
+ },
+ {
+   "NAME": "Reaper autocannon",
+   "Points": 10
+ },
+ {
+   "NAME": "Reaper chaincannon",
+   "Points": 20
+ },
+ {
+   "NAME": "Shotgun",
+   "Points": 0
+ },
+ {
+   "NAME": "Skullhurler",
+   "Points": 60
+ },
+ {
+   "NAME": "Sonic blaster",
+   "Points": 5
+ },
+ {
+   "NAME": "Soulreaper cannon",
+   "Points": 10
+ },
+ {
+   "NAME": "twin heavy bolter",
+   "Points": 30
+ },
+ {
+   "NAME": "twin heavy flamer",
+   "Points": 30
+ },
+ {
+   "NAME": "twin lascannon",
+   "Points": 40
+ },
+ {
+   "NAME": "warp bolter",
+   "Points": 5
+ },
+ {
+   "NAME": "warpflame pistol",
+   "Points": 5
+ },
+ {
+   "NAME": "warpflamer",
+   "Points": 8
+ },
+ {
+   "NAME": "",
+   "Points": null
+ },
+ {
+   "NAME": "Blight grenades",
+   "Points": 0
+ },
+ {
+   "NAME": "Daemonic icon",
+   "Points": 15
+ },
+ {
+   "NAME": "Frag grenades",
+   "Points": 0
+ },
+ {
+   "NAME": "Icon of despair",
+   "Points": 10
+ },
+ {
+   "NAME": "Icon of Excess",
+   "Points": 10
+ },
+ {
+   "NAME": "Icon of Flame",
+   "Points": 5
+ },
+ {
+   "NAME": "Icon of Vengeance",
+   "Points": 5
+ },
+ {
+   "NAME": "Icon of Wrath",
+   "Points": 10
+ },
+ {
+   "NAME": "Instrument of Chaos",
+   "Points": 10
+ },
+ {
+   "NAME": "Krak grenades",
+   "Points": 0
+ }
+]
+}
