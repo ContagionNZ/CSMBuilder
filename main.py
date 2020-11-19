@@ -6,6 +6,7 @@ Troops = True
 Elites = True
 FastAttack = True
 HeavySupport = True
+Transport = True
 
 c = open('ChaosMarines.json')
 chaos_marines = json.load(c)
@@ -47,6 +48,8 @@ HSSC3 = 0
 HSSC4 = 0
 HSSC5 = 0
 HSSC6 = 0
+TRSPC = 0
+TRSPC2 = 0
 
 HQSum = 0
 TroopSum = 0
@@ -269,7 +272,7 @@ while running is True:
         else:
             HeavySupport = False
             break
-        HSCheck2 = input("Have Heavy Support?: ")
+        HSCheck2 = input("Have More Heavy Support?: ")
         if HSCheck2.lower() != "No".lower():
             HS2 = input("Enter Fast Attack: ")
             HSNumber2 = int(input("Number in Squad: "))
@@ -278,7 +281,7 @@ while running is True:
         else:
             HeavySupport = False
             break
-        HSCheck3 = input("Have Heavy Support?: ")
+        HSCheck3 = input("Have More Heavy Support?: ")
         if HSCheck3.lower() != "No".lower():
             HS3 = input("Enter Fast Attack: ")
             HSNumber3 = int(input("Number in Squad: "))
@@ -287,7 +290,7 @@ while running is True:
         else:
             HeavySupport = False
             break
-        HSCheck4 = input("Have Heavy Support?: ")
+        HSCheck4 = input("Have More Heavy Support?: ")
         if HSCheck4.lower() != "No".lower():
             HS4 = input("Enter Fast Attack: ")
             HSNumber4 = int(input("Number in Squad: "))
@@ -296,7 +299,7 @@ while running is True:
         else:
             HeavySupport = False
             break
-        HSCheck5 = input("Have Heavy Support?: ")
+        HSCheck5 = input("Have More Heavy Support?: ")
         if HSCheck5.lower() != "No".lower():
             HS5 = input("Enter Fast Attack: ")
             HSNumber5 = int(input("Number in Squad: "))
@@ -305,7 +308,7 @@ while running is True:
         else:
             HeavySupport = False
             break
-        HSCheck6 = input("Have Heavy Support?: ")
+        HSCheck6 = input("Have More Heavy Support?: ")
         if HSCheck6.lower() != "No".lower():
             HS6 = input("Enter Fast Attack: ")
             HSNumber6 = int(input("Number in Squad: "))
@@ -314,10 +317,32 @@ while running is True:
         else:
             HeavySupport = False
             break
-    HeavySupportSum = HSSC + HSSC2 + HSSC3 + HSSC4 + HSSC5 + HSSC6
-    print("Total Heavy Support Cost: " + str(HeavySupportSum))
+        HeavySupportSum = HSSC + HSSC2 + HSSC3 + HSSC4 + HSSC5 + HSSC6
+        print("Total Heavy Support Cost: " + str(HeavySupportSum))
 
-    ArmyTotal = HQSum + TroopSum + EliteSum + FastAttackSum + HeavySupportSum
+    while Transport is True:
+        TRSPCheck = input("Have Trasports?: ")
+        if TRSPCheck.lower() != "No".lower():
+            TRSP = input("Enter Transport: ")
+            TRSPNumber = int(input("Number of this transport: "))
+            TRSPP = look_up(TRSP)
+            TRSPC = TRSP * TRSPNumber
+        else:
+            FastAttack = False
+            break
+        TRSPCheck2 = input("Have Other Transports?: ")
+        if TRSPCheck2.lower() != "No".lower():
+            TRSP2 = input("Enter Transport: ")
+            TRSPNumber2 = int(input("Number of this transport: "))
+            TRSPP2 = look_up(TRSP)
+            TRSPC2 = TRSP2 * TRSPNumber2
+        else:
+            FastAttack = False
+            break
+    TransportSum = TRSPC + TRSPC2
+    print("Total Transport Cost: " + str(TransportSum))
+
+    ArmyTotal = HQSum + TroopSum + EliteSum + FastAttackSum + HeavySupportSum + TransportSum
     print("Total Army Cost: " + str(ArmyTotal))
     running = False
 
