@@ -265,7 +265,7 @@ while running is True:
     while HeavySupport is True:
         HSCheck = input("Have Heavy Support?: ")
         if HSCheck.lower() != "No".lower():
-            HS = input("Enter Fast Attack: ")
+            HS = input("Enter Heavy Support: ")
             HSNumber = int(input("Number in Squad: "))
             HSP = look_up(HS)
             HSSC = HSP * HSNumber
@@ -274,7 +274,7 @@ while running is True:
             break
         HSCheck2 = input("Have More Heavy Support?: ")
         if HSCheck2.lower() != "No".lower():
-            HS2 = input("Enter Fast Attack: ")
+            HS2 = input("Enter Heavy Support: ")
             HSNumber2 = int(input("Number in Squad: "))
             HSP2 = look_up(HS2)
             HSSC2 = HSP2 * HSNumber2
@@ -283,7 +283,7 @@ while running is True:
             break
         HSCheck3 = input("Have More Heavy Support?: ")
         if HSCheck3.lower() != "No".lower():
-            HS3 = input("Enter Fast Attack: ")
+            HS3 = input("Enter Heavy Support: ")
             HSNumber3 = int(input("Number in Squad: "))
             HSP3 = look_up(HS3)
             HSSC3 = HSP3 * HSNumber3
@@ -292,7 +292,7 @@ while running is True:
             break
         HSCheck4 = input("Have More Heavy Support?: ")
         if HSCheck4.lower() != "No".lower():
-            HS4 = input("Enter Fast Attack: ")
+            HS4 = input("Enter Heavy Support: ")
             HSNumber4 = int(input("Number in Squad: "))
             HSP4 = look_up(HS4)
             HSSC4 = HSP4 * HSNumber4
@@ -301,7 +301,7 @@ while running is True:
             break
         HSCheck5 = input("Have More Heavy Support?: ")
         if HSCheck5.lower() != "No".lower():
-            HS5 = input("Enter Fast Attack: ")
+            HS5 = input("Enter Heavy Support: ")
             HSNumber5 = int(input("Number in Squad: "))
             HSP5 = look_up(HS5)
             HSSC5 = HSP5 * HSNumber5
@@ -310,7 +310,7 @@ while running is True:
             break
         HSCheck6 = input("Have More Heavy Support?: ")
         if HSCheck6.lower() != "No".lower():
-            HS6 = input("Enter Fast Attack: ")
+            HS6 = input("Enter Heavy Support: ")
             HSNumber6 = int(input("Number in Squad: "))
             HSP6 = look_up(HS6)
             HSSC6 = HSP6 * HSNumber6
@@ -326,7 +326,7 @@ while running is True:
             TRSP = input("Enter Transport: ")
             TRSPNumber = int(input("Number of this transport: "))
             TRSPP = look_up(TRSP)
-            TRSPC = TRSP * TRSPNumber
+            TRSPC = TRSPP * TRSPNumber
         else:
             FastAttack = False
             break
@@ -334,8 +334,8 @@ while running is True:
         if TRSPCheck2.lower() != "No".lower():
             TRSP2 = input("Enter Transport: ")
             TRSPNumber2 = int(input("Number of this transport: "))
-            TRSPP2 = look_up(TRSP)
-            TRSPC2 = TRSP2 * TRSPNumber2
+            TRSPP2 = look_up(TRSP2)
+            TRSPC2 = TRSPP2 * TRSPNumber2
         else:
             FastAttack = False
             break
